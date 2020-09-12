@@ -20,14 +20,14 @@ try:
     pdata_version = V("1.0")
 except ImportError:
     pass
-data_git_hash = "6fe4d89ce1e39e4a507cf9deef74b5e0e00197a1"
+data_git_hash = "2bb61cb3ce497cb4090893f0e2b5c1fea46a22f3"
 data_git_describe = "v1.0"
 data_git_msg = """\
-commit 6fe4d89ce1e39e4a507cf9deef74b5e0e00197a1
+commit 2bb61cb3ce497cb4090893f0e2b5c1fea46a22f3
 Author: Christiaan Baaij <christiaan.baaij@gmail.com>
-Date:   Thu Sep 10 23:31:13 2020 +0200
+Date:   Sat Sep 12 15:50:31 2020 +0200
 
-    Correctly handle traps/interrupts and LSU
+    LSUnit also finished on misaligned address
 
 """
 
